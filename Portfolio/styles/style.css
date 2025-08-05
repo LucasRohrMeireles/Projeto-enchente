@@ -67,6 +67,7 @@ h1 {
   color: var(--cor-terciaria);
   border: 0px solid var(--cor-terciaria);
   padding: 10px;
+  font-family: var(--font-primaria);
 }
 
 .apresentacao__conteudo__texto {
@@ -140,6 +141,7 @@ h1 {
 
   .cabecalho__menu {
     justify-content: center;
+    gap: 20px;
   }
 
   .apresentacao {
