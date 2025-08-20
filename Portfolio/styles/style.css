@@ -171,3 +171,7 @@ h1 {
 .texto__invisivel {
   color: var(--cor-primaria);
 }
+
+.apresentacao__imagem {
+  width: 40%;
+}
