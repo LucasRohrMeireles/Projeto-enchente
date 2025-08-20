@@ -140,6 +140,15 @@ h1 {
 }
 
 @media (max-width: 1200px) {
+  * {
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    overflow-x: hidden; /* Isso impede o scroll lateral */
+    width: 100%;
+  }
+
   .cabecalho {
     padding: 10%;
   }
